@@ -1,0 +1,1 @@
+../../default/inc/otm-hillshade-styles.xml.inc

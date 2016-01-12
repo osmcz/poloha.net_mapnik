@@ -1,0 +1,145 @@
+<!ENTITY yellow "stroke='#dddd00'">
+<!ENTITY red "stroke='#dd0000'">
+<!ENTITY green "stroke='#00dd00'">
+<!ENTITY blue "stroke='#0000dd'">
+<!ENTITY one_track_small "stroke-opacity=1.0
+                          stroke-width=1">
+<!ENTITY one_track_normal "stroke-opacity=1.0
+                           stroke-width=2">
+<!ENTITY one_track_big "stroke-opacity=1.0
+                        stroke-width=3">
+<!ENTITY one_track_huge "stroke-opacity=1.0
+                         stroke-width=4">
+<!ENTITY two_tracks_small_1 "stroke-opacity=1.0
+                             stroke-width=1
+                             stroke-dasharray=2,2">
+<!ENTITY two_tracks_small_2 "stroke-opacity=1.0
+                             stroke-width=1
+                             stroke-dasharray=0,2,2,0">
+<!ENTITY two_tracks_normal_1 "stroke-opacity=1.0
+                              stroke-width=2
+                              stroke-dasharray=4,4">
+<!ENTITY two_tracks_normal_2 "stroke-opacity=1.0
+                              stroke-width=2
+                              stroke-dasharray=0,4,4,0">
+<!ENTITY two_tracks_big_1 "stroke-opacity=1.0
+                           stroke-width=3
+                           stroke-dasharray=6,6">
+<!ENTITY two_tracks_big_2 "stroke-opacity=1.0
+                           stroke-width=3
+                           stroke-dasharray=0,6,6,0">
+<!ENTITY two_tracks_huge_1 "stroke-opacity=1.0
+                            stroke-width=4
+                            stroke-dasharray=8,8">
+<!ENTITY two_tracks_huge_2 "stroke-opacity=1.0
+                            stroke-width=4
+                            stroke-dasharray=0,8,8,0">
+<!ENTITY three_tracks_small_1 "stroke-opacity=1.0
+                               stroke-width=1
+                               stroke-dasharray=2,4">
+<!ENTITY three_tracks_small_2 "stroke-opacity=1.0
+                               stroke-width=1
+                               stroke-dasharray=0,2,2,2">
+<!ENTITY three_tracks_small_3 "stroke-opacity=1.0
+                               stroke-width=1
+                               stroke-dasharray=0,4,2,0">
+<!ENTITY three_tracks_normal_1 "stroke-opacity=1.0
+                                stroke-width=2
+                                stroke-dasharray=4,8">
+<!ENTITY three_tracks_normal_2 "stroke-opacity=1.0
+                                stroke-width=2
+                                stroke-dasharray=0,4,4,4">
+<!ENTITY three_tracks_normal_3 "stroke-opacity=1.0
+                                stroke-width=2
+                                stroke-dasharray=0,8,4,0">
+<!ENTITY three_tracks_big_1 "stroke-opacity=1.0
+                             stroke-width=3
+                             stroke-dasharray=6,12">
+<!ENTITY three_tracks_big_2 "stroke-opacity=1.0
+                             stroke-width=3
+                             stroke-dasharray=0,6,6,6">
+<!ENTITY three_tracks_big_3 "stroke-opacity=1.0
+                             stroke-width=3
+                             stroke-dasharray=0,12,6,0">
+<!ENTITY three_tracks_huge_1 "stroke-opacity=1.0
+                              stroke-width=4
+                              stroke-dasharray=8,16">
+<!ENTITY three_tracks_huge_2 "stroke-opacity=1.0
+                              stroke-width=4
+                              stroke-dasharray=0,8,8,8">
+<!ENTITY three_tracks_huge_3 "stroke-opacity=1.0
+                              stroke-width=4
+                              stroke-dasharray=0,16,8,0">
+<!ENTITY four_tracks_small_1 "stroke-opacity=1.0
+                              stroke-width=1
+                              stroke-dasharray=2,6">
+<!ENTITY four_tracks_small_2 "stroke-opacity=1.0
+                              stroke-width=1
+                              stroke-dasharray=0,2,2,4">
+<!ENTITY four_tracks_small_3 "stroke-opacity=1.0
+                              stroke-width=1
+                              stroke-dasharray=0,4,2,2">
+<!ENTITY four_tracks_small_4 "stroke-opacity=1.0
+                              stroke-width=1
+                              stroke-dasharray=0,6,2,0">
+<!ENTITY four_tracks_normal_1 "stroke-opacity=1.0
+                             stroke-width=1
+                             stroke-dasharray=4,12">
+<!ENTITY four_tracks_normal_2 "stroke-opacity=1.0
+                               stroke-width=2
+                               stroke-dasharray=0,4,4,8">
+<!ENTITY four_tracks_normal_3 "stroke-opacity=1.0
+                               stroke-width=2
+                               stroke-dasharray=0,8,4,4">
+<!ENTITY four_tracks_normal_4 "stroke-opacity=1.0
+                               stroke-width=2
+                               stroke-dasharray=0,12,4,0">
+<!ENTITY four_tracks_big_1 "stroke-opacity=1.0
+                             stroke-width=3
+                             stroke-dasharray=6,18">
+<!ENTITY four_tracks_big_2 "stroke-opacity=1.0
+                             stroke-width=3
+                             stroke-dasharray=0,6,6,12">
+<!ENTITY four_tracks_big_3 "stroke-opacity=1.0
+                             stroke-width=3
+                             stroke-dasharray=0,12,6,6">
+<!ENTITY four_tracks_big_4 "stroke-opacity=1.0
+                             stroke-width=3
+                             stroke-dasharray=0,18,6,0">
+<!ENTITY four_tracks_huge_1 "stroke-opacity=1.0
+                             stroke-width=4
+                             stroke-dasharray=8,24">
+<!ENTITY four_tracks_huge_2 "stroke-opacity=1.0
+                             stroke-width=4
+                             stroke-dasharray=0,8,8,16">
+<!ENTITY four_tracks_huge_3 "stroke-opacity=1.0
+                             stroke-width=4
+                             stroke-dasharray=0,16,8,8">
+<!ENTITY four_tracks_huge_4 "stroke-opacity=1.0
+                             stroke-width=4
+                             stroke-dasharray=0,24,8,0">
+<!--
+<!ENTITY % yellow_track "(not [kct_yellow].match('^$|^bicycle$') or not [marked_trail_yellow].match('^$|^bicycle$') or [marked_trail].match('^yellow.*$'))">
+<!ENTITY % red_track "(not [kct_red].match('^$|^bicycle$') or not [marked_trail_red].match('^$|^bicycle$') or [marked_trail].match('^red.*$'))">
+<!ENTITY % green_track "(not [kct_green].match('^$|^bicycle$') or not [marked_trail_green].match('^$|^bicycle$') or [marked_trail].match('^green.*$'))">
+<!ENTITY % blue_track "(not [kct_blue].match('^$|^bicycle$') or not [marked_trail_blue].match('^$|^bicycle$') or [marked_trail].match('^blue.*$'))">
+-->
+<!ENTITY % yellow_track "(not [kct_yellow].match('^$|^bicycle$'))">
+<!ENTITY % red_track "(not [kct_red].match('^$|^bicycle$'))">
+<!ENTITY % green_track "(not [kct_green].match('^$|^bicycle$'))">
+<!ENTITY % blue_track "(not [kct_blue].match('^$|^bicycle$'))">
+<!ENTITY yellow_hiking_filter "<Filter>%yellow_track; and not %red_track; and not %green_track; and not %blue_track;</Filter>">
+<!ENTITY red_hiking_filter "<Filter>not %yellow_track; and %red_track; and not %green_track; and not %blue_track;</Filter>">
+<!ENTITY green_hiking_filter "<Filter>not %yellow_track; and not %red_track; and %green_track; and not %blue_track;</Filter>">
+<!ENTITY blue_hiking_filter "<Filter>not %yellow_track; and not %red_track; and not %green_track; and %blue_track;</Filter>">
+<!ENTITY yellow_red_hiking_filter "<Filter>%yellow_track; and %red_track; and not %green_track; and not %blue_track;</Filter>">
+<!ENTITY yellow_green_hiking_filter "<Filter>%yellow_track; and not %red_track; and %green_track; and not %blue_track;</Filter>">
+<!ENTITY yellow_blue_hiking_filter "<Filter>%yellow_track; and not %red_track; and not %green_track; and %blue_track;</Filter>">
+<!ENTITY red_green_hiking_filter "<Filter>not %yellow_track; and %red_track; and %green_track; and not %blue_track;</Filter>">
+<!ENTITY red_blue_hiking_filter "<Filter>not %yellow_track; and %red_track; and not %green_track; and %blue_track;</Filter>">
+<!ENTITY green_blue_hiking_filter "<Filter>not %yellow_track; and not %red_track; and %green_track; and %blue_track;</Filter>">
+<!ENTITY red_green_blue_hiking_filter "<Filter>not %yellow_track; and %red_track; and %green_track; and %blue_track;</Filter>">
+<!ENTITY yellow_green_blue_hiking_filter "<Filter>%yellow_track; and not %red_track; and %green_track; and %blue_track;</Filter>">
+<!ENTITY yellow_red_blue_hiking_filter "<Filter>%yellow_track; and %red_track; and not %green_track; and %blue_track;</Filter>">
+<!ENTITY yellow_red_green_hiking_filter "<Filter>%yellow_track; and %red_track; and %green_track; and not %blue_track;</Filter>">
+<!ENTITY yellow_red_green_blue_hiking_filter "<Filter>%yellow_track; and %red_track; and %green_track; and %blue_track;</Filter>">
