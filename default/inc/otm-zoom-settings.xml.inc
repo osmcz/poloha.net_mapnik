@@ -39,3 +39,7 @@
 <!ENTITY minscale_zoom19 "<MinScaleDenominator>500</MinScaleDenominator>">
 <!ENTITY maxscale_zoom20 "<MaxScaleDenominator>500</MaxScaleDenominator>">
 <!ENTITY minscale_zoom20 "<MinScaleDenominator>250</MinScaleDenominator>">
+<!ENTITY maxscale_zoom21 "<MaxScaleDenominator>250</MaxScaleDenominator>">
+<!ENTITY minscale_zoom21 "<MinScaleDenominator>125</MinScaleDenominator>">
+<!ENTITY maxscale_zoom22 "<MaxScaleDenominator>125</MaxScaleDenominator>">
+<!ENTITY minscale_zoom22 "<MinScaleDenominator>50</MinScaleDenominator>">
