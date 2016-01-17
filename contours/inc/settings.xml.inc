@@ -1,0 +1,1 @@
+../../default/inc/settings.xml.inc

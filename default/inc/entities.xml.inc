@@ -13,6 +13,9 @@
 <!ENTITY % otm-tracks-settings SYSTEM "otm-tracks-settings.xml.inc">
 %otm-tracks-settings;
 
+<!ENTITY % otm-contours-colors-standard SYSTEM "otm-contours-colors-standard.xml.inc">
+%otm-contours-colors-standard;
+
 <!ENTITY otm-tracks-layers SYSTEM "otm-tracks-layers.xml.inc">
 <!ENTITY otm-tracks-styles SYSTEM "otm-tracks-styles.xml.inc">
 <!ENTITY otm-tracks-debug-layers SYSTEM "otm-tracks-debug-layers.xml.inc">
