@@ -73,14 +73,13 @@
   <Rule>
     &maxscale_zoom17;
     &minscale_zoom22;
-    <TextSymbolizer 
+    <TextSymbolizer
         face-name="DejaVu Sans Book"
-        size="&font_size_tiny;" 
-        placement="line" 
+        size="&font_size_tiny;"
+        placement="line"
         avoid-edges="true"
-        repeat-distance="800"
         fill="&text_label_color;"
-        halo-radius="1" 
+        halo-radius="1"
         halo-fill="&halo_color;"
         smooth="1.0"
     > [height] </TextSymbolizer>
@@ -90,32 +89,30 @@
   <Rule>
     &maxscale_zoom14;
     &minscale_zoom14;
-    <TextSymbolizer 
+    <TextSymbolizer
         face-name="DejaVu Sans Book"
-        size="&font_size_extra_tiny;" 
-        placement="line" 
+        size="&font_size_extra_tiny;"
+        placement="line"
         avoid-edges="true"
-        repeat-distance="400"
         minimum-path-length="100"
         minimum-padding="100"
         fill="&text_label_color;"
-        halo-radius="1" halo-fill="&halo_color;"      
+        halo-radius="1" halo-fill="&halo_color;"
         smooth="1.0"
       > [height] </TextSymbolizer>
   </Rule>
   <Rule>
     &maxscale_zoom15;
     &minscale_zoom16;
-    <TextSymbolizer 
+    <TextSymbolizer
         face-name="DejaVu Sans Book"
-        size="&font_size_tiny;" 
-        placement="line" 
+        size="&font_size_tiny;"
+        placement="line"
         avoid-edges="true"
-        repeat-distance="800"
         minimum-path-length="200"
         minimum-padding="100"
         fill="&text_label_color;"
-        halo-radius="1" halo-fill="&halo_color;"      
+        halo-radius="1" halo-fill="&halo_color;"
         smooth="1.0"
       > [height] </TextSymbolizer>
   </Rule>
@@ -124,16 +121,15 @@
   <Rule>
     &maxscale_zoom14;
     &minscale_zoom14;
-    <TextSymbolizer 
+    <TextSymbolizer
         face-name="DejaVu Sans Book"
-        size="&font_size_extra_tiny;" 
-        placement="line" 
+        size="&font_size_extra_tiny;"
+        placement="line"
         avoid-edges="true"
-        repeat-distance="600"
         minimum-path-length="100"
         minimum-padding="100"
         fill="&text_label_color;"
-        halo-radius="1" 
+        halo-radius="1"
         halo-fill="&halo_color;"
         smooth="1.0"
     > [height] </TextSymbolizer>
@@ -141,16 +137,15 @@
   <Rule>
     &maxscale_zoom15;
     &minscale_zoom16;
-    <TextSymbolizer 
+    <TextSymbolizer
         face-name="DejaVu Sans Book"
-        size="&font_size_tiny;" 
-        placement="line" 
+        size="&font_size_tiny;"
+        placement="line"
         avoid-edges="true"
-        repeat-distance="400"
         minimum-path-length="200"
         minimum-padding="100"
         fill="&text_label_color;"
-        halo-radius="1" 
+        halo-radius="1"
         halo-fill="&halo_color;"
         smooth="1.0"
     > [height] </TextSymbolizer>
@@ -158,14 +153,13 @@
   <Rule>
     &maxscale_zoom17;
     &minscale_zoom22;
-    <TextSymbolizer 
+    <TextSymbolizer
         face-name="DejaVu Sans Book"
-        size="&font_size_tiny;" 
-        placement="line" 
+        size="&font_size_tiny;"
+        placement="line"
         avoid-edges="true"
-        repeat-distance="800"
         fill="&text_label_color;"
-        halo-radius="1" 
+        halo-radius="1"
         halo-fill="&halo_color;"
         smooth="1.0"
     > [height] </TextSymbolizer>
