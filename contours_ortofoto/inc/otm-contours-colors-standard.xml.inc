@@ -1,1 +1,1 @@
-../../default/inc/otm-contours-colors-standard.xml.inc
+../../contours/inc/./otm-contours-colors-standard.xml.inc

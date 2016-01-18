@@ -1,1 +1,1 @@
-../../default/inc/otm-zoom-settings.xml.inc
+../../contours/inc/./otm-zoom-settings.xml.inc

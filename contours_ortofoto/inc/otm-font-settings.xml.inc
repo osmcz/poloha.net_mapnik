@@ -1,1 +1,1 @@
-../../default/inc/otm-font-settings.xml.inc
+../../contours/inc/./otm-font-settings.xml.inc

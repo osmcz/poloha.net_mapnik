@@ -1,1 +1,1 @@
-../../default/inc/fontset-settings.xml.inc
+../../contours/inc/./fontset-settings.xml.inc

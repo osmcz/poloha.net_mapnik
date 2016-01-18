@@ -1,1 +1,1 @@
-../../default/inc/otm-contours-layers.xml.inc
+../../contours/inc/./otm-contours-layers.xml.inc

@@ -1,1 +1,1 @@
-../../default/inc/entities.xml.inc
+../../contours/inc/./entities.xml.inc

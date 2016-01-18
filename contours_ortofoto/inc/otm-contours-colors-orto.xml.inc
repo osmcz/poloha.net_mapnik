@@ -1,1 +1,1 @@
-../../default/inc/otm-contours-colors-orto.xml.inc
+../../contours/inc/./otm-contours-colors-orto.xml.inc

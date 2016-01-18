@@ -1,1 +1,1 @@
-../../default/inc/settings.xml.inc
+../../contours/inc/./settings.xml.inc

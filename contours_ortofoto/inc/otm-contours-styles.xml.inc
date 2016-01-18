@@ -1,1 +1,1 @@
-../../default/inc/otm-contours-styles.xml.inc
+../../contours/inc/./otm-contours-styles.xml.inc

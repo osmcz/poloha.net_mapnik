@@ -1,17 +1,9 @@
 <!-- Contour lines layers. -->
 <Layer name="contours10" status="on" srs="+proj=latlong +datum=WGS84">
   <StyleName>contours10</StyleName>
-<!--  <StyleName>contours-text10</StyleName>-->
+  <StyleName>contours-text10</StyleName>
   <Datasource>
-    <Parameter name="table">(SELECT way,height::integer FROM &prefix;_contours WHERE height::integer % 10 = 0 AND height::integer % 20 != 0 AND height::integer % 50 != 0 AND height::integer % 100 != 0) as contours10</Parameter>
-    &datasource-settings;
-  </Datasource>
-</Layer>
-<Layer name="contours20" status="on" srs="+proj=latlong +datum=WGS84">
-  <StyleName>contours20</StyleName>
-  <StyleName>contours-text20</StyleName>
-  <Datasource>
-    <Parameter name="table">(SELECT way,height::integer FROM &prefix;_contours WHERE height::integer % 20 = 0 AND height::integer % 50 != 0 AND height::integer % 100 != 0) as contours20</Parameter>
+    <Parameter name="table">(SELECT way,height::integer FROM &prefix;_contours WHERE height::integer % 10 = 0 AND height::integer % 50 != 0 AND height::integer % 100 != 0) as contours10</Parameter>
     &datasource-settings;
   </Datasource>
 </Layer>

@@ -1,1 +1,1 @@
-../../default/inc/otm-tracks-settings.xml.inc
+../../contours/inc/./otm-tracks-settings.xml.inc

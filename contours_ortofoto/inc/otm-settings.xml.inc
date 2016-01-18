@@ -1,1 +1,1 @@
-../../default/inc/otm-settings.xml.inc
+../../contours/inc/./otm-settings.xml.inc
