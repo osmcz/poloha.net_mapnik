@@ -1,12 +1,5 @@
 <!-- Style for international hiking tracks. -->
 
-<Style name="international-track">
-  <Rule>
-    &maxscale_zoom13;
-    <LineSymbolizer stroke='#dd0000' stroke-opacity='1.0' stroke-width='3'/>
-  </Rule>
-</Style>
-
 <Style name="international-track-shield">
   <Rule>
     <Filter>[length]=1</Filter>
