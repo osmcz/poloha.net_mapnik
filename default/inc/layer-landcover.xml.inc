@@ -1,10 +1,4 @@
 <Style name="landcover">
-     <Rule>
-      <Filter>[leisure] = 'swimming_pool'</Filter>
-      &maxscale_zoom14;
-      <PolygonSymbolizer fill="#b5d0d0"/>
-      <LineSymbolizer stroke="blue" stroke-width="0.5"/>
-    </Rule>
     <Rule>
       <Filter>[leisure] = 'playground'</Filter>
       &maxscale_zoom13;
@@ -316,7 +310,7 @@
     <Rule>
       <Filter>[leisure] = 'sports_centre' or [leisure] = 'stadium'</Filter>
       &maxscale_zoom10;
-      <PolygonSymbolizer fill="#33cc99"/>
+      <PolygonSymbolizer fill="#33cc99" fill-opacity="0.8"/>
     </Rule>
     <Rule>
       <Filter>[leisure]='track'</Filter>
@@ -329,6 +323,12 @@
       &maxscale_zoom10;
       <PolygonSymbolizer fill="#8ad3af"/>
       <LineSymbolizer stroke="#888" stroke-width="0.5"/>
+    </Rule>
+     <Rule>
+      <Filter>[leisure] = 'swimming_pool'</Filter>
+      &maxscale_zoom14;
+      <PolygonSymbolizer fill="#b5d0d0"/>
+      <LineSymbolizer stroke="blue" stroke-width="0.5"/>
     </Rule>
 </Style>
 
@@ -371,11 +371,11 @@
     <Datasource>
       <Parameter name="table">
       (select way,leisure,
-       case when leisure='pitch' then 2
+       case when leisure='pitch' or leisure='swimming_pool' then 2
             when leisure='track' then 1
             else 0 end as prio
        from &prefix;_polygon
-       where leisure in ('sports_centre','stadium','pitch','track')
+       where leisure in ('sports_centre','stadium','pitch','track','swimming_pool')
        order by z_order,prio,way_area desc
       ) as sports_grounds
       </Parameter>
